@@ -10,7 +10,7 @@
     padding-bottom: 0.75rem;
 }
 
-nav a:any-link{
+nav a:visited{
     color: #C4B8BD;
     text-decoration: none;nav{
     float:right;
