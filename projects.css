@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0; 
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+html{
+    font-family: 'Lato', 'verdana', 'sans serif';
+    font-size: 16px;
+    line-height: 1.3rem;
+}
+
+h1{
+    text-align: center;
+    margin:1.3rem;
+    padding:0.65rem;
+}
+
+
+.pics{
+    float:left;
+    width: 33.33%;
+    padding:0.65rem;  
+}
+
+.box{
+    align-content: center;
+    margin:1.3rem;
+}
+
+/*clear floats */
+.box::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+
+figure{
+    display: table;
+}
+figcaption{
+    padding-top: 0.65rem;
+    display: table-caption;
+    caption-side: top;
+    text-align: center;
+}
+
+.pimg{
+    width: 100%;
+    border-radius: 20%;
+    border: 3px solid #27A59C;
+}
+
+.pages{
+    float:right;
+    width:50%;
+    border-radius: 20%;
+    border: 3px solid #27A59C;
+}
+
+.container{
+    margin:1.3rem;
+    padding:1.3rem;
+    
+    
+}
