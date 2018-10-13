@@ -10,7 +10,9 @@
     padding-bottom: 0.75rem;
 }
 
-nav{
+nav a:any-link{
+    color: #C4B8BD;
+    text-decoration: none;nav{
     float:right;
 }
 
